@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+@import 'ol/ol.css';
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Keep OpenLayers attribution readable on top of imagery */
+.ol-attribution {
+  font-size: 10px;
+}
+
+/* Range inputs: slim dark-theme styling shared by all sliders */
+input[type='range'] {
+  accent-color: #0ea5e9;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "hkms-aerial-viewer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automated georeferencing, display and swipe-comparison of HKMS 2.0 vertical aerial photographs (EPSG:2326) on Lands Department basemaps",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ol": "^10.4.0",
+    "proj4": "^2.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "shpjs": "^6.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.14",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.14",
+    "vite": "^6.2.2"
+  }
+}
